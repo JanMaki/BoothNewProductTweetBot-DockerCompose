@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: .
+    environment:
+      - TwitterAccessToken=${TwitterAccessToken}
+      - TwitterAccessSecret=${TwitterAccessSecret}
+      - TwitterAPIKey=${TwitterAPIKey}
+      - TwitterAPISecretKey=${TwitterAPISecretKey}
+      - SearchTag=${SearchTag}
