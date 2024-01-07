@@ -1,6 +1,6 @@
 services:
   bot:
-    build: .
+    image: janmaki/booth-new-product-tweet_bot
     environment:
       - TwitterAccessToken=${TwitterAccessToken}
       - TwitterAccessSecret=${TwitterAccessSecret}
